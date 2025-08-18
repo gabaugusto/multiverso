@@ -1,10 +1,12 @@
 <!DOCTYPE html> <!-- Versão do HTML -->
-<html lang="en"> <!-- Especificação da Linguagem -->
+<html lang="pt"> <!-- Especificação da Linguagem -->
 
 <head> <!-- Cabeça da Página: Define o comportamento da página em diferentes ambientes. -->
     <meta charset="UTF-8"> <!-- Codificação dos caracteres -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Fica para depois -->
-    <title>Matéria sobre pokemon | Multiverso News: Melhores Notícias do Multiverso</title> <!-- Nome da página dentro da Aba-->
+    <title>Matéria sobre pokemon | Multiverso News: Melhores Notícias do Multiverso</title>
+    <!-- Nome da página dentro da Aba-->
+     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body><!-- Corpo da Página: Define o que será exibido para o usuário. -->
@@ -14,13 +16,22 @@
     </header>
 
     <nav> <!-- Navegação -->
-        Outra Página
+        <ul>
+            <li><a href="#">Matéria 1</a></li>
+            <li><a href="#">Matéria 2</a></li>
+            <li><a href="#">Matéria 3</a></li>
+        </ul>
     </nav>
 
     <main> <!-- Tag Principal -->
         <h1>"Pokémon é o Jogo Quase Perfeito? Coleção, Batalhas e Competição Explicam Tudo!"</h1>
 
-        <img src="img/cute-pokemon.jpg" width="75%">
+        <figure>
+            <img src="img/cute-pokemon.jpg" alt="Imagem com três pokemons bonitinhos.">
+            <figcaption>Imagem com três pokemons bonitinhos.</figcaption>
+        </figure>
+
+        <img src="img/cute-pokemon.jpg" width="75%" alt="Imagem com três pokemons bonitinhos." title="Imagem de pokemons">
 
         <p>Por [Seu Nome Aqui], o Treinador que Nunca Esqueceu o Primeiro Shiny</p>
 

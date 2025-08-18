@@ -1,0 +1,73 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background: #ccc;
+}
+
+header {
+    background: #0C121F;
+    color: aqua;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #ffffff1d;
+    font-family: Arial;
+    font-size: 18pt;
+}
+
+h2 {
+    font-size: 2.0em;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+header p {
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+}
+
+article p {
+    font-weight: 200;
+}
+
+nav {
+    background: #0C121F;
+}
+
+nav a {
+    color: #FFFFFF;
+}
+
+nav a:hover {
+    color: #FEFEFE;
+}
+
+a {
+    color: orangered;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: orange;
+    text-decoration: underline;   
+    background: #0C121F;
+}
+
+main {
+    background: red;
+}
+
+article {
+    /* width: 50%; */
+    width: 100vw;
+    height: 30vh;
+    background: #FEFEFE;
+}
