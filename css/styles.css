@@ -1,5 +1,6 @@
 * {
     font-family: Arial;
+    margin: 0;
 }
 
 body {
@@ -38,7 +39,17 @@ article p {
 }
 
 nav {
-    background: #0C121F;
+    background: #8791a7;
+    border-bottom: #fefefe 3px solid;
+    border-right: #fefefe 3px solid;
+    border-radius: 0px 0 20px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 nav a {
@@ -55,7 +66,6 @@ a {
 }
 
 a:hover {
-    font-weight: bold;
     color: orange;
     text-decoration: underline;   
     background: #0C121F;
